@@ -1,1 +1,1 @@
-# online-judge-connector
+# Online Judge Connector
