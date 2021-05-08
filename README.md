@@ -4,11 +4,28 @@ This is a template project to facilitate the implementation of a new Judge Conne
 
 You will need to implement the following REST routes:
 
+Request:
+
+```
+GET /users/:user
+```
+
+Response:
+
+```json
+{
+  "name": "string",
+  "level": "number"
+}
+```
+
+Request:
+
 ```
 GET /users/:user/submissions
 ```
 
-Pay attention for the fact that the response of the above route should follow this pattern:
+Response:
 
 ```json
 {
