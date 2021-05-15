@@ -16,12 +16,12 @@ GET /problems
 Response:
 
 ```json
-{
+[{
   "id": "{connectorName}_{problemId}",
   "name": "string",
   "level": "number",
   "topics": ["string"]
-}
+}]
 ```
 
 Request:
@@ -52,9 +52,9 @@ GET /users/:user/submissions
 Response:
 
 ```json
-{
+[{
   "problemId": "{connectorName}_{problemId}",
   "momentInSeconds": "long", 
   "verdict": "enumeration of (SOLVED, TRIED)"
-}
+}]
 ```
